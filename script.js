@@ -140,7 +140,7 @@ function boxAnimation() {
     if ((newMarginLeft >= -110) & (newMarginLeft <= 100)) {
       if (boyMarginTop > 300) {
         clearInterval(boxAnimationId);
-
+        document.getElementById("box"+i).style.visibility = "hidden";
         clearInterval(runAnimationNumber);
         runAnimationNumber = -1;
 
@@ -150,7 +150,7 @@ function boxAnimation() {
         clearInterval(moveBackgroundAnaimationId);
         moveBackgroundAnaimationId = -1;
 
-        document.querySelector(".box").style.visibility = "hidden";
+        
 
         deathAnimationNumber = setInterval(boyDeathAniamtion, 100);
       }
