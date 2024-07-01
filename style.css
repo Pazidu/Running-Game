@@ -1,0 +1,71 @@
+.body{
+    margin: 0;
+    
+}
+.background{
+    background-image: url('./resourses/3.jpg');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: repeat-x;
+    overflow: hidden;
+    position: absolute;
+}
+.boy{
+    height: 250px;
+    margin-top: 410px;
+    position: absolute;
+}
+
+.box{
+    height: 240px;
+    width: 240px;
+    position: absolute;
+    margin-top: -90px;
+    background-image: url('./resourses/dr.gif');
+    background-repeat: no-repeat;
+    background-size: contain;
+    visibility: visible;
+}
+
+.score{
+    margin-left: 30px;
+    font-size: 50px;
+    position: absolute;
+    margin-right: 30px;
+    font-weight: bold;
+    margin-top: 30px;
+    color: aliceblue;
+    visibility: visible;
+}
+
+.end{
+    margin-top: 100px;
+    height:70vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 90px;
+    font-weight: bold;
+    color: white;
+    font-family: "Broadway";
+    visibility: hidden;
+}
+
+.btn{
+    background-color: white;
+    color: black;
+    font-family: sans-serif;
+    font-size: 35px;
+    padding: 20px 50px;
+    margin-top: 30px;
+    border-radius: 35px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(122, 122, 122);
+    padding: 20px 55px;
+}

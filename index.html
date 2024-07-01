@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Speed Runner</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body
+    class="body"
+    onload="idleAnimationStart(); createBoxes();"
+    onkeypress="keyCheck(event);"
+  >
+    <div class="background" id="background">
+      <img src="resourses/png/Idle (1).png" class="boy" id="boy" />
+
+      <div class="score" id="score">0</div>
+      <div class="end" id="end">
+        <div class="gameOver">GAME OVER</div>
+        <div class="yourScore" id="yourScore">Your Score: </div>
+        <div class="btn" id="btn" onclick="reload();">Try Again</div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
