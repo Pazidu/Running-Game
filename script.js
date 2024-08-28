@@ -75,18 +75,18 @@ function moveBackground() {
 
 jumpAnimationNumber = 0;
 jumpImageNumber = 1;
-boyMarginTop = 410;
+boyMarginTop = 445;
 
 function jumpAnimation() {
   jumpImageNumber = jumpImageNumber + 1;
 
   if (jumpImageNumber <= 6) {
-    boyMarginTop = boyMarginTop - 40;
+    boyMarginTop = boyMarginTop - 50;
     boy.style.marginTop = boyMarginTop + "px";
   }
 
   if (jumpImageNumber >= 7) {
-    boyMarginTop = boyMarginTop + 40;
+    boyMarginTop = boyMarginTop + 50;
     boy.style.marginTop = boyMarginTop + "px";
   }
 
@@ -104,7 +104,7 @@ function jumpAnimationStart() {
   clearInterval(idleAnimationNumber);
   runImageNumber = 0;
   clearInterval(runAnimationNumber);
-  jumpAnimationNumber = setInterval(jumpAnimation, 120);
+  jumpAnimationNumber = setInterval(jumpAnimation, 125);
 }
 
 boxMarginLeft = 1540;

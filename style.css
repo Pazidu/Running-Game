@@ -13,7 +13,7 @@
 }
 .boy{
     height: 250px;
-    margin-top: 410px;
+    margin-top: 445px;
     position: absolute;
 }
 
@@ -21,7 +21,7 @@
     height: 240px;
     width: 240px;
     position: absolute;
-    margin-top: -90px;
+    margin-top: -80px;
     background-image: url('./resourses/dr.gif');
     background-repeat: no-repeat;
     background-size: contain;
